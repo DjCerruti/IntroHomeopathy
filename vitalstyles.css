@@ -1,17 +1,3 @@
-.searchform {
-width: 70%;
-margin-left: 25%; 
-margin-top: 1em;
-}
-
-.searchform input[type="submit"] {
-  border-radius: 15px;
-  font-size: 1.8em;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  padding: .35em;
-  margin-top: .25em;
-}
-
 /* GLOBAL STYLING */
 
 .unclickable {
@@ -1031,12 +1017,13 @@ img#widerimg {
     font-size: 1em;
   }
 
-  nav ul li a, select {
-    font-size: 1.6rem;
+  nav ul li a {
+    font-size: 1.3rem;
   }
 
-
-}
+  select {
+    font-size: 1.6rem;
+  }
 
 @media screen and (max-width: 1112px) {
 
@@ -1273,7 +1260,7 @@ blockquote.clear {
 }
 
 blockquote.clear p {
-  font-size: 2em;
+  font-size: 1.4rem;
 }
 
   .mainpic {
