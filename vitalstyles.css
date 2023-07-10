@@ -11,6 +11,7 @@
 aside.special {
   padding-top: 2.0em;
   padding-bottom: 1.8em;
+  width: 72%;
 }
 
 html {
@@ -199,7 +200,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   background-size: contain;
-  top: 9.3%;
+  top: 0.3%;
   right:0;
   bottom:0;
   left: 10%;
@@ -287,7 +288,7 @@ pre {
 }
 
   li, dl {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-family: Perpetua, Cambria, "Times New Roman", serif;
 }
 
@@ -454,6 +455,7 @@ input[type="submit"]:active, input[type="reset"]:active {
 
 #systems {
   margin-top: .5em;
+  
 }
 
 select {
@@ -1025,6 +1027,9 @@ img#widerimg {
     font-size: 1.6rem;
   }
 
+
+}
+
 @media screen and (max-width: 1112px) {
 
   p, li, address, label {
@@ -1094,8 +1099,8 @@ header {
 	
 	img#potency {
 	display: inline-block;
-	width: 375px;
-	height: 230px;
+	width: 100%;
+	height: auto;
 	}
 	
   img#widerimg {
@@ -1186,7 +1191,7 @@ nav {
   }
 
   li, dl {
-    font-size: .8rem;
+    font-size: 1.3rem;
     font-family: Perpetua, Cambria, "Times New Roman", serif;
   }
 
@@ -1215,7 +1220,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  font-size: 100%
+  font-size: 150%
 }
 
 nav li {
@@ -1326,5 +1331,43 @@ textarea {
   font-size: 1.4rem;
   vertical-align: -64px;
 }
+
+
+}
+
+@media screen and (max-width: 475px) {
+
+fieldset label, fieldset select, fieldset option, fieldset p, fieldset textarea {
+  font-size: 1em;
+  width: 70%;
+}
+
+.lastquote {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff2cc;
+  opacity: 1;
+  margin-top: .5em;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+p, li, blockquote {
+  font-size: 1em;
+}
+
+.clear em, .clear strong, .clear cite, .clear p, .clear span {
+  font-size: .8em;
+}
+
+nav ul li {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+
 
 }
